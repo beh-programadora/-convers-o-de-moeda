@@ -1,0 +1,38 @@
+
+---
+
+### .gitignore
+
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+ENV/
+env.bak/
+env/
+
+# Editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+Enunciado
+Projeto: Conversão de Moeda (Reais para Dólares)
+
+Desenvolva um script em Python que solicite ao usuário um valor em Reais (BRL) e realize a conversão para Dólares Americanos (USD) com base em uma taxa de câmbio fixa.
+
+Requisitos:
+
+O script deve solicitar ao usuário o valor em Reais.
+A taxa de câmbio deve ser definida no código (ex.: 1 USD = 5 BRL).
+O valor convertido deve ser exibido com duas casas decimais.
+Critérios de Avaliação:
+
+Correção na conversão de valores.
+Exibição adequada do valor convertido.
+Estrutura e clareza do código.
